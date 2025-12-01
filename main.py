@@ -1,3 +1,4 @@
+import asyncio
 import discord
 from discord import app_commands
 from discord.ext import commands
@@ -5,7 +6,7 @@ import json
 import os
 import asyncio
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "MTQ0NDcyNjQyMDk3MzgxNzkzOQ.Ga5cX3.r-baZh_zQLX7iABCAeO1j_l57ZumHH820-IVrA"
 
 CONFIG_FILE = "config.json"
 POSTS_FILE = "posts_map.json"
@@ -310,3 +311,4 @@ async def buyer_role_create(interaction: discord.Interaction):
 # ================= RUN =================
 
 bot.run(TOKEN)
+
